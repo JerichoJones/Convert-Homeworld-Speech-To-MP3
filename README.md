@@ -2,7 +2,7 @@
 
 PowerShell 7 script for extracting **Homeworld Remastered** speech audio from a `.big` archive and converting the contained FDA assets to MP3.
 
-**Current script version:** `1.0.13`
+**Current script version:** `1.0.14`
 
 Note: TommyJ's fda2aifc Tool is here in case it disappears from the web. The script is automated so it will attempt to download required tools for you.
 ---
@@ -170,7 +170,7 @@ This helps avoid mixing older stale outputs with the current safer naming result
 
 ## Version notes
 
-### `1.0.13`
+### `1.0.14`
 
 Targeted fix for filename identity safety:
 
@@ -178,6 +178,7 @@ Targeted fix for filename identity safety:
 - Preserved more full source-path context in output names
 - Added a manifest naming-strategy version marker
 - Forces stage rebuild when an older manifest naming strategy is detected
+- fda2aifc.zip is now downloaded from the Github location.
 
 ---
 
