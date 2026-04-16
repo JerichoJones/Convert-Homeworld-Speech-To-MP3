@@ -60,8 +60,9 @@ Stops after WAV generation and skips the FFmpeg/MP3 conversion step.
 
 .NOTES
 Author: Jericho Jones
-Version: 1.0.13
+Version: 1.0.14
 Requires Windows + PowerShell 7.
+Original location of fda2aifc: http://dow.finaldeath.co.uk/files/fda2aifc.zip
 #>
 
 [CmdletBinding()]
@@ -80,7 +81,7 @@ param(
     [ValidateRange(32,320)]
     [int]$Mp3BitrateKbps = 96,
 
-    [string]$Fda2AifcZipUrl = 'http://dow.finaldeath.co.uk/files/fda2aifc.zip',
+    [string]$Fda2AifcZipUrl = 'https://github.com/JerichoJones/Convert-Homeworld-Speech-To-MP3/releases/download/fda2aifc_Tool/fda2aifc.zip',
 
     [switch]$KeepIntermediate,
     [switch]$ForceRedownload,
