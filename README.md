@@ -4,6 +4,7 @@ PowerShell 7 script for extracting **Homeworld Remastered** speech audio from a 
 
 **Current script version:** `1.0.13`
 
+Note: TommyJ's fda2aifc Tool is here in case it disappears from the web. The script is automated so it will attempt to download required tools for you.
 ---
 
 ## Overview
